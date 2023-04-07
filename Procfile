@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn elearning.wsgi
+web: gunicorn elearning.wsgi
