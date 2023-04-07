@@ -1,2 +1,1 @@
-release: python3 manage.py migrate
-web: gunicorn elearning.wsgi
+web: python manage.py migrate && python manage.py collectstatic && gunicorn elearning.wsgi
