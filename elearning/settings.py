@@ -27,6 +27,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = ['https://web-production-13dc.up.railway.app']
+
 AUTH_USER_MODEL = "zella.ZellaUser"
 
 
